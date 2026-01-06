@@ -6,4 +6,4 @@ for fast in range(1,n):
         slow+=1
         arr[slow]=arr[fast]
 print("lenth=",slow+1)
-print("array=",arr[:slow+1])
+print("array=",arr[:slow+1])             

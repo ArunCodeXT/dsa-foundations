@@ -7,7 +7,7 @@ def reverse(arr,start,end):
         end-=1
 arr=[10,20,30,40,50]
 n=len(arr)
-k=2
+k=4
 k=k%n
 reverse(arr,0,n-1)
 reverse(arr,0,k-1)
